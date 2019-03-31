@@ -1,0 +1,27 @@
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+<table style="width:100%">
+  <tr>
+    <td>Name:</td>
+    <td> <input type="text" formControlName="name"> </td> 
+  </tr>
+  <tr>
+    <td>Email:</td>
+    <td><input type="text" formControlName="email"></td> 
+  </tr>
+  <tr>
+    <td>Phone:</td>
+    <td><input type="text" formControlName="phone"></td> 
+  </tr>
+  <tr>
+    <td>Address:</td>
+    <td><input type="text" formControlName="add"></td> 
+  </tr>
+  <tr>
+    <td>Password:</td>
+    <td><input type="text" formControlName="password"></td> 
+  </tr>
+  <tr>
+    <td><button type="submit">Submit</button></td>
+  </tr>
+</table>
+</form>
